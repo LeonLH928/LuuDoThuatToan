@@ -5,7 +5,7 @@ int main()
 {
     int x, n;
     cin >> x >> n;
-    int s = 0;
+    float s = 0;
     int t = 1;
     int m = 0;
     int i = 1;
