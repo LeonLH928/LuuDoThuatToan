@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
 	int n;
+	cin >> n;
 	int flag = 1;
 	int  t = n;
 	while (t != 0)
