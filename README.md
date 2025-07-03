@@ -3,7 +3,7 @@
 ## Hướng dẫn bắt đầu
 
 1. Mở Visual Studio.
-2. Clone repository về máy. (Trên Git nằm trên thanh toolbar)
+2. Clone repository về máy. (Trong phần "Get Started" của main menu)
 3. Khi cần, trong menu "Git" trên thanh toolbar, nhấn "Pull" để cập nhật các branch.
 
 ## Hướng dẫn thêm bài (Hướng mỗi bài một branch)
@@ -13,11 +13,7 @@ Hướng này phân chia phần việc thành *nhiều* branch, mỗi bài một
 1. Trong menu "Git" trên thanh toolbar, chọn "New Branch", đặt tên branch theo tên bài.
     1. Nên chọn "Based on" là branch `master`.
 2. Thêm project mới cho bài giải.
-3. Trong menu "Git" trên thanh toolbar, chọn "Commit or Stash...".
-4. Chọn các file muốn commit (thường chọn hết).
-5. Viết commit message (bất kỳ thứ gì - có thể đặt tên bài cho dễ; bắt buộc để có thể push lên repository).
-6. Nhấn "Commit Staged".
-7. Trong menu "Git" trên thanh toolbar, chọn "Sync".
+3. [Xem tiếp](#hướng-dẫn-sau-khi-hoàn-thiện-bài)
 
 ## Hướng dẫn thêm bài (Hướng nhiều bài một branch)
 
@@ -29,6 +25,15 @@ Hướng này phân chia phần việc thành một *hoặc* nhiều branch. Ph�
     1. **Lưu ý**: Nên commit 1 lần cho mỗi bài (Không nên làm xong hết tất cả các bài rồi commit và push 1 lần).
 3. Push và tạo PR hợp lý.
     1. **Lưu ý**: Chỉ tạo PR và merge **sau** khi hoàn thiện các bài.
+4. [Xem tiếp](#hướng-dẫn-sau-khi-hoàn-thiện-bài)
+
+## Hướng dẫn sau khi hoàn thiện bài
+
+1. Trong menu "Git" trên thanh toolbar, chọn "Commit or Stash...".
+2. Chọn các file muốn commit (thường chọn hết hoặc chỉ chọn của bài đang làm nếu theo hướng 2).
+3. Viết commit message (bất kỳ thứ gì - có thể đặt tên bài cho dễ; bắt buộc để có thể push lên repository).
+4. Nhấn "Commit Staged".
+5. Trong menu "Git" trên thanh toolbar, chọn "Sync".
 
 ## Hướng dẫn merge branch vào master
 
