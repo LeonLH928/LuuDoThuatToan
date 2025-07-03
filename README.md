@@ -19,7 +19,7 @@ Hướng này phân chia phần việc thành *nhiều* branch, mỗi bài một
 
 Hướng này phân chia phần việc thành một *hoặc* nhiều branch. Phần việc *nên* được chia *hợp lý* vào các branch (theo chương, chủ đề, phần, ...)
 
-1. Trong menu "Git" trên thanh toolbar, chọn "New Branch", đặt tên branch **bất kỳ**, **nếu chưa tạo branch nào**.
+1. Trong menu "Git" trên thanh toolbar, chọn "New Branch", đặt tên branch **theo tên mình (để quản lý list bài làm)**, **nếu chưa tạo branch nào**.
     1. Nên chọn "Based on" là branch `master`.
 2. Thêm 1 project cho mỗi bài.
     1. **Lưu ý**: Nên commit 1 lần cho mỗi bài (Không nên làm xong hết tất cả các bài rồi commit và push 1 lần).
